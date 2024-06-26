@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    width: 700px;
+    width: auto;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -32,7 +32,7 @@
   }
   .benefits {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 30px;
     min-width: 900px;
@@ -51,8 +51,8 @@
     }
   }
   
-  .basic-marquee svg {
-    width: 100px;
+  .benefits svg {
+    width: 200px;
   }
   .basic-marquee button {
     background-color: transparent;
