@@ -1,25 +1,46 @@
-var totalItems = $('.item-01').length;
-var currentIndex = $('div.carousel-item').index() + 1;
-var down_index;
-$('.num-01').html('' + currentIndex + '&nbsp;/&nbsp;' + totalItems + '');
-$(".next-01").click(function() {
-  currentIndex_active = $('div.carousel-item.active').index() + 2;
-  if (totalItems >= currentIndex_active) {
-    down_index = $('div.carousel-item.active').index() + 2;
-    $('.num-01').html('' + currentIndex_active + '&nbsp;/&nbsp;' + totalItems + '');
-  } else {
-    down_index = 1; //just to make 0 to go to else part when back button is clicked
-    $('.num-01').html('1' + '&nbsp;/&nbsp;' + totalItems + '');
-
-  }
+// Bootstrap carousel current and total items counter...
+$('.numslide').each(function () {
+  var total = $(this).parents('.carousel').find('.carousel-inner .item').length;
+  $(this).text('1 of ' + total);
 });
 
-$(".prev-01").click(function() {
-  down_index = down_index - 1;
-  if (down_index >= 1) {
-    $('.num-01').html('' + down_index + '&nbsp;/&nbsp;' + totalItems + '');
-  } else {
-    down_index = totalItems; //last slide value 
-    $('.num-01').html('' + totalItems + '&nbsp;/&nbsp;' + totalItems + '');
-  }
+$('.carousel').on('slid.bs.carousel', function () {
+  var carouselData = $(this).data('bs.carousel');
+  var currentIndex = $(this).find('.active').index();
+  var total = carouselData.$items.length;
+
+  var txt = (currentIndex + 1) + ' of ' + total;
+  $(this).find('.numslide').text(txt);
+});
+
+
+
+
+
+
+// Bootstrap 4.X carousel current and total items counter...
+let elCarousel = $('.carousel');
+let elCarouselItem = $('.carousel-item');
+let elCarouselCounter = $('.crsl_slide-counter');
+
+elCarousel.each(function () {
+let $carousel = $(this);
+let totalItems = $carousel.find(elCarouselItem).length;
+if (totalItems < 10) {
+  totalItems = '0' + totalItems;
+}
+$carousel.find(elCarouselCounter).html('01/' + totalItems + '');
+});
+
+elCarousel.on('slid.bs.carousel', function () {
+let $carousel = $(this);
+let currentIndex = $carousel.find('div.active').index() + 1;
+if (currentIndex < 10) {
+  currentIndex = '0' + currentIndex
+}
+let ti = $carousel.find(elCarouselItem).length;
+if (ti < 10) {
+  ti = '0' + ti;
+}
+$carousel.find(elCarouselCounter).html('' + currentIndex + '/' + ti + '');
 });
