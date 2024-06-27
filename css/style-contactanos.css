@@ -38,9 +38,8 @@
     gap: 30px;
     min-width: 900px;
     height: 100%;
-    white-space: wrap;
+    flex-wrap: wrap;
     overflow: hidden;
-    position: absolute;
     inset: 0;
   }
   @keyframes marquee {
