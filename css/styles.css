@@ -640,6 +640,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -3769,11 +3770,12 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
-  margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  text-align: center;
+  margin: 0 auto;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -11363,7 +11365,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: 0 10px;
+  margin: 0;
 }
 
 .subnav-item{
@@ -11389,5 +11391,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+  text-align: center;
+}
+
+.text-center{
   text-align: center;
 }
