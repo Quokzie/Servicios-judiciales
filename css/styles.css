@@ -10840,17 +10840,20 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+
 
 h2.section-heading-small{
   font-size: 1rem;
@@ -11405,4 +11408,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .text-center{
   text-align: center;
+}
+
+section#conocenos{
+  margin-bottom: 0;
 }
