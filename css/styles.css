@@ -10949,6 +10949,8 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
