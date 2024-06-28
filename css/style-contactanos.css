@@ -5,8 +5,6 @@
     width: auto;
     height: 300px;
     position: relative;
-    overflow: hidden;
-    border-radius: 14px;
     margin: 15px auto;
     flex-wrap: wrap;
   }
@@ -19,8 +17,6 @@
     min-width: 900px;
     height: 100%;
     flex-wrap: wrap;
-    overflow: hidden;
-    inset: 0;
   }
   
   .benefits svg {
