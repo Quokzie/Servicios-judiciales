@@ -11372,3 +11372,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 .mt-5{
   margin-top: 100px;
 }
+
+.bordercolor{
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #000,
+      1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000;
+}
