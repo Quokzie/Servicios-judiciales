@@ -9,12 +9,12 @@
     flex-wrap: wrap;
   }
 
-  .content-small {
+  .content-one {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: auto;
-    height: 100px;
+    height: 60vh;
     position: relative;
     margin: 30px auto 0 auto;
     flex-wrap: wrap;
@@ -29,10 +29,26 @@
     height: 100%;
     flex-wrap: wrap;
   }
+
+  .benefits-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .benefits-one svg{
+    width: 150px;
+  }
   
   .benefits svg {
     width: 100px;
   }
+
   .cls-1 {
     fill: #1ab7ea;
   }
