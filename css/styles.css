@@ -11356,7 +11356,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding: 3px auto;
+  padding: 0 auto;
 }
 
 .subnav ul{
