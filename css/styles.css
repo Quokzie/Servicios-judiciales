@@ -11374,6 +11374,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
+  align-items: center;
 }
 
 .subnav-item{
