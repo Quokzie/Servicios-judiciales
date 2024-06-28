@@ -11322,9 +11322,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-  height: 400px;
-
+  min-width: 300px;
+  max-width: 600px;
 }
 
 .img-border{
