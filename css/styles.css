@@ -11356,12 +11356,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  padding: 3px auto;
 }
 
 .subnav ul{
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  margin: 0 10px;
 }
 
 .subnav-item{
