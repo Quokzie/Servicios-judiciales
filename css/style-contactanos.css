@@ -1,8 +1,7 @@
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 30px;
     width: auto;
     height: 300px;
     position: relative;
@@ -11,26 +10,7 @@
     margin: 15px auto;
     flex-wrap: wrap;
   }
-  .basic-marquee {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-  }
-  .basic-marquee .button {
-    transition: all 0.3s ease;
-  }
-  .basic-marquee .button:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-  .basic-marquee-1 {
-    animation: marquee 15s linear infinite;
-  }
-  .basic-marquee-2 {
-    animation: marquee 21s linear infinite;
-  }
+
   .benefits {
     display: flex;
     flex-direction: row;
@@ -42,26 +22,9 @@
     overflow: hidden;
     inset: 0;
   }
-  @keyframes marquee {
-    0% {
-      transform: translateX(-10%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
   
   .benefits svg {
-    width: 200px;
-  }
-  .basic-marquee button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100px;
   }
   .cls-1 {
     fill: #1ab7ea;
