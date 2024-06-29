@@ -3734,7 +3734,7 @@ textarea.form-control-lg {
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-padding-y: 0;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
@@ -10840,7 +10840,7 @@ p {
 }
 
 .page-section {
-  padding: 6em 0;
+  padding: 4em 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10891,8 +10891,8 @@ h2.section-heading-small{
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
@@ -11361,7 +11361,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   background-color: #ffc800;
   position: fixed;
-  top: 70px;
+  top: 45px;
   right: 0;
   left: 0;
   z-index: 1030;
