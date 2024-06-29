@@ -11279,6 +11279,7 @@ section#contact {
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  padding: 1.2rem;
 }
 section#contact .section-heading {
   color: #fff;
@@ -11286,10 +11287,7 @@ section#contact .section-heading {
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
-}
+
 section#contact form#contactForm .form-group input.form-control {
   height: auto;
 }
@@ -11412,4 +11410,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 section#conocenos{
   margin-bottom: 0;
+}
+
+.text-white{
+  color: white;
 }
