@@ -52,3 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+
+const buttons = document.querySelectorAll('.button');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    buttons.forEach(button => button.classList.remove('activebutton'));
+    button.classList.add('activebutton');
+    });
+});
+
