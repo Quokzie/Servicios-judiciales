@@ -10858,7 +10858,7 @@ p {
 h2.section-heading-small{
   font-size: 1rem;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11407,4 +11407,8 @@ section#conocenos{
   box-shadow: none;
   filter: brightness(150%);
   color: #ababab ;
+}
+
+.page-section#about, .page-section#conocenos{
+  background-color:  #222222;
 }
