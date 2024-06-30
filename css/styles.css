@@ -11339,9 +11339,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding-left: 0;
   align-items: center;
+}
+
+@media (min-width:768px) {
+  .subnav ul{
+    gap: 40px;
+  }
 }
 
 .subnav-item{
