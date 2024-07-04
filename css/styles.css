@@ -10894,7 +10894,7 @@ h2.section-heading-smaller{
   border-radius: 100%;
 }
 
-#mainNav {
+#mainNav { /*color navbar titulo*/
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #212529;
@@ -10934,7 +10934,7 @@ header.masthead {
   padding-right: 5px;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bg.jpg"); /*imagen de fondo, el banner, ... aja*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11325,7 +11325,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 15px auto;
 }
 
-.subnav{
+.subnav{  /*color y demas cosas mas o menos de el navbar de opciones*/
   display: flex;
   background-color: #ffc800;
   position: fixed;
